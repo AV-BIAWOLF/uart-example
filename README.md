@@ -1,6 +1,6 @@
 # UART Data Transmission on Arty A7 A-35 FPGA. Project for studying the operation of UART.
 
-This project demonstrates how to implement UART data transmission on an Arty A7 A-35 FPGA. Inspired by a tutorial from the YouTube channel **MIHAS**, I followed the steps to create my own working design. The original tutorial can be found here: [MIHAS UART Tutorial](https://www.youtube.com/).
+This project demonstrates how to implement UART data transmission on an Arty A7 A-35 FPGA. Inspired by a tutorial from the YouTube channel **MIHAS**, I followed the steps to create my own working design. The original tutorial can be found here: [MIHAS UART Tutorial](https://www.youtube.com/watch?v=eDEIS3RBvag&list=PL2tpftA-kds7aUjCE4GzCe0QNaV-ISePy&index=5).
 
 ## Overview
 
@@ -23,7 +23,7 @@ The block design includes:
 - **Clocking Wizard** to generate the 50 MHz clock.
 - **UART module** for data transmission and reception.
 
-![Block Design](path/to/block_design_image.png)
+![Block Design](doc/img/bd.png)
 
 ---
 
@@ -31,7 +31,7 @@ The block design includes:
 
 Using VIO, I was able to change the transmitted data dynamically and observe the corresponding UART output. Here's an example screenshot of the VIO interface:
 
-![VIO Interface](path/to/vio_image.png)
+![VIO Interface](doc/img/pic1.png)
 
 ---
 
@@ -39,5 +39,5 @@ Using VIO, I was able to change the transmitted data dynamically and observe the
 
 I used a terminal program PuTTY to send and receive data through the UART interface. Below is an example of a transmitted symbol:
 
-![UART Transmission](path/to/uart_transmission_image.png)
+![UART Transmission](doc/img/pic2.png)
 
